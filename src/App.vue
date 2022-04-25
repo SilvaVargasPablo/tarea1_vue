@@ -1,7 +1,9 @@
+
+
 <template>
   <div id="app">
       <b-navbar toggleable="lg" type="dark" variant="info">
-    <b-navbar-brand href="#">NavBar</b-navbar-brand>
+    <b-navbar-brand href="#">Fotografias</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -36,13 +38,34 @@
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
+
+  <table-component/>
+  <grid-component />
+  <modal-component/>
+
       </div>
 </template>
 
 <script>
+import TableComponent from './components/TableComponent.vue'
+import GridComponent from './components/GridComponent.vue'
+import ModalComponent from './components/ModalComponent.vue'
 
+export default {
+  components: {
+    TableComponent,
+    GridComponent,
+    ModalComponent
+
+  }
+}
 </script>
 
-<style>
+
+<style scoped>
+  .navbar{
+  background: rgb(78, 88, 228);
+
+  }
 
 </style>
