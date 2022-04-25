@@ -8,7 +8,7 @@
 
 <script>
   export default {
-      name: 'ModalComponent'
+      name: 'ModalComponent',
       data() {
       return {
         modalShow: false,
