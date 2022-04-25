@@ -8,10 +8,10 @@
 
 <script>
   export default {
-      name: 'ModalComponent',
-    data() {
+      name: 'ModalComponent'
+      data() {
       return {
-        modalShow: false
+        modalShow: false,
       }
     }
   }

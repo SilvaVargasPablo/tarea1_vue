@@ -56,7 +56,6 @@ export default {
     TableComponent,
     GridComponent,
     ModalComponent
-
   }
 }
 </script>
